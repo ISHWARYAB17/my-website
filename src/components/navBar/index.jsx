@@ -9,7 +9,7 @@ const data = [
         to : '/'
     },
     {
-        label : 'ABOUTME' ,
+        label : 'ABOUT ME' ,
         to : '/about'
     },
     {
