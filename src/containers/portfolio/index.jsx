@@ -12,31 +12,31 @@ const portfolioData=[
         id : 2,
         name: "Child Tracking Device using  IOT",
         image: ImageOne,
-        link:''
+        link:'https://elaborate-paprenjak-ace803.netlify.app'
     },
     {
         id : 2,
         name: "Shoplaza-Ecommerce Website",
         image: ImageTwo,
-        link:''
+        link:'https://elaborate-paprenjak-ace803.netlify.app'
     },
     {
         id : 2,
         name: "Portfolio using ReactJS",
         image: ImageThree,
-        link:''
+        link:'https://elaborate-paprenjak-ace803.netlify.app'
     },
     {
         id : 2,
         name: "Writers Stop-Ecommerce app",
         image:ImageFour,
-        link:''
+        link:'https://elaborate-paprenjak-ace803.netlify.app'
     },
     {
         id : 3,
         name: "PlantDisease Detection",
         image:ImageFive,
-        link:''
+        link:'https://elaborate-paprenjak-ace803.netlify.app'
     },
 ]
 
