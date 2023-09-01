@@ -12,30 +12,34 @@ const portfolioData=[
         id : 2,
         name: "Child Tracking Device using  IOT",
         image: ImageOne,
+        link:''
         
     },
     {
         id : 2,
         name: "Shoplaza-Ecommerce Website",
         image: ImageTwo,
+        link:''
         
     },
     {
         id : 2,
         name: "Portfolio using ReactJS",
         image: ImageThree,
-       
+       link:''
     },
     {
         id : 2,
         name: "Writers Stop-Ecommerce app",
         image:ImageFour,
+        link:''
        
     },
     {
         id : 3,
         name: "PlantDisease Detection",
         image:ImageFive,
+        link:''
         
     },
 ]
@@ -101,7 +105,7 @@ const Portfolio=() => {
                         onMouseEnter={()=> handleHover(index)}
                         onMouseLeave={()=>handleHover(null)}>
                             <div className="portfolio__content__cards__item__img-wrapper">
-                                <a>
+                                <a href="https://elaborate-paprenjak-ace803.netlify.app">
                                     <img alt="dummy data" src={item.image}/>
                                 </a>
                                  </div>
