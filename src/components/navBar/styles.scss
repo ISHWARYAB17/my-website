@@ -6,6 +6,9 @@
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
+    top:0;
+    z-index: 1000;
+
 
     &__container{
         display: flex;
@@ -61,7 +64,7 @@
     .navbar__container__menu{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         width: 100%;
         position: absolute;
         top: 80px;
@@ -69,6 +72,8 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 999;
+        background-color: #181818;
+        overflow-y: auto;
 
         &.active{
             background: #181818;
@@ -89,4 +94,7 @@
         color: var(--blue-theme-main-color);
         padding-right: 20px;
     }
+}
+.navbar__container__menu.active + .content {
+    margin-top: 80px; /* Adjust as needed to prevent overlap */
 }
